@@ -1,7 +1,7 @@
 // src/api/authService.js
 import axios from 'axios';
 
-const API_URL = '/api/users/';
+const API_URL = 'https://cv-chatbot-backend.onrender.com/api/users/';
 
 // Register user
 const register = async (userData) => {
