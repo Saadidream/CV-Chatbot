@@ -139,7 +139,7 @@ SIMPLE_JWT = {
 # Updated CORS settings for deployment
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
-    "https://your-vercel-app-name.vercel.app",  # Replace with your actual Vercel domain when you know it
+    "https://cv-chatbot-ai.vercel.app",  # Replace with your actual Vercel domain when you know it
 ]
 CORS_ALLOW_CREDENTIALS = True
 
