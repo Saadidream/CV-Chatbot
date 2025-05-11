@@ -1,7 +1,7 @@
 // src/api/chatService.js
 import axios from 'axios';
 
-const API_URL = '/api/chatbot/sessions/';
+const API_URL = 'https://cv-chatbot-backend.onrender.com/api/chatbot/sessions/';
 
 // Get all chat sessions
 const getSessions = async (token) => {
